@@ -7,6 +7,9 @@ const PORT = process.env.PORT || 5000;
 // connect database
 connectDB();
 
+// middleware
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res) => res.json({ msg: 'Welcome to the Thunderdome!' }));
 
 // app routes
