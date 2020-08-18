@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
-/config
+/config/default.json
 # testing
 /coverage
 

@@ -1,3 +1,4 @@
 {
-	"mongoURI": "mongodb+srv://admin:ckudemy88@cluster0.ftgiq.mongodb.net/Cluster0?retryWrites=true&w=majority"
+	"mongoURI": "mongodb+srv://admin:ckudemy88@cluster0.ftgiq.mongodb.net/Cluster0?retryWrites=true&w=majority",
+	"jwtSecret": "secrettoken123"
 }
